@@ -42,7 +42,7 @@ app.post("/register", async (request, response) => {
         VALUES(
             '${username}',
             '${name}',
-            '${password}',
+            '${hashedPassword}',
             '${gender}',
             '${location}'
         );`;
